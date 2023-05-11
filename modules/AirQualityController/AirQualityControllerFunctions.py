@@ -60,3 +60,6 @@ def getWorstComponents(self):
         if self.getQualityIndex(particle) == worstResult:
             worstCompoents.append(particle)
     return worstCompoents
+
+def getAllParticles(self):
+    return self.particles
